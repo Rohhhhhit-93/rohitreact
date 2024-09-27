@@ -5,6 +5,10 @@ import Banner from './components/Banner'
 import BandTeam from './components/BandTeam'
 import BandMember from './components/BandMember'
 import TourSection from './components/TourSection'
+import Contact from './components/Contact'
+import Map from './components/Map'
+import Footer from './components/Footer'
+
 
 export default function App() {
   return (
@@ -14,6 +18,10 @@ export default function App() {
       <BandTeam />
       <BandMember />
       <TourSection />
+      <Contact />
+      <Map />
+      <Footer />
+      
     </div>
   )
 }

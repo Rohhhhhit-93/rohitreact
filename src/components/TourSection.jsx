@@ -14,7 +14,7 @@ export default function TourSection() {
             <div class="row gap-2">
                 <div class="col">
                     <div class="card">
-                      <img src="/assets/images/newyork.jpg" class="card-image" />
+                      <img src={require('../assets/images/newyork.jpg')} class="card-image" />
                        <div class="card-body">
                         <div class="card-title">New York</div>
                         <div class="card-subtitle">Fri 27 Nov 2024</div>
@@ -25,7 +25,7 @@ export default function TourSection() {
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="/assets/images/paris.jpg" class="card-image" />
+                        <img src={require('../assets/images/paris.jpg')} class="card-image" />
                         <div class="card-body">
                         <div class="card-title">Paris</div>
                         <div class="card-subtitle">Sat 28 Nov 2024</div>
@@ -36,7 +36,7 @@ export default function TourSection() {
                  </div>
                  <div class="col">
                     <div class="card">
-                        <img src="/assets/images/sanfran.jpg" class="card-image" />
+                        <img src={require('../assets/images/sanfran.jpg')} class="card-image" />
                         <div class="card-body">
                         <div class="card-title">San Francisco</div>
                         <div class="card-subtitle">Sun 29 Nov 2024</div>
